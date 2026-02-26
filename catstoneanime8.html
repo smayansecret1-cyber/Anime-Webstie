@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+<style>
+#musicBtn {
+position: fixed;
+bottom: 20px;
+right: 20px;
+background: linear-gradient(rgba(0, 18, 97, 0.9), rgba(0, 0, 0, 0.9));
+color: white;
+border: none;
+padding: 10px 18px;
+border-radius: 25px;
+font-size: 14px;
+cursor: pointer;
+box-shadow: 0px 0px 10px cyan;
+transition: 0.3s ease;
+}
+
+#musicBtn:hover {
+box-shadow: 0px 0px 20px cyan;
+transform: scale(1.1);
+}
+
+/* BODY BACKGROUND */
+body {
+margin: 0;
+padding: 0;
+font-family: 'Poppins', Arial, sans-serif;
+color: white;
+text-align: center;
+
+background: linear-gradient(rgba(0, 10, 60, 0.6), rgba(0, 0, 0, 0.7)),
+url("https://imgsrv.crunchyroll.com/cdn-cgi/image/fit=contain,format=auto,quality=85,width=1200,height=675/catalog/crunchyroll/cc4876e3d3252aff165e9ae3646e6adf.png");
+
+background-size: cover;
+background-position: center;
+background-repeat: no-repeat;
+background-attachment: fixed;
+}
+
+/* MAIN SECTION CENTERED */
+.main-content {
+max-width: 1000px;
+margin: 140px auto 60px auto;
+padding: 40px;
+
+background: rgba(0, 10, 60, 0.6);
+backdrop-filter: blur(10px);
+-webkit-backdrop-filter: blur(10px);
+
+border-radius: 25px;
+box-shadow: 0px 15px 45px rgba(0,0,0,0.7);
+
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+
+/* HEADINGS */
+h1, h2, h3 {
+font-size: 60px;
+letter-spacing: 3px;
+text-shadow: 3px 3px 8px rgba(0,0,0,0.7);
+margin-bottom: 20px;
+
+background: linear-gradient(rgba(0, 18, 97, 0.55), rgba(0, 0, 0, 0.6));
+padding: 15px 25px;
+display: inline-block;
+border-radius: 15px;
+box-shadow: 0px 4px 15px rgba(0,0,0,0.5);
+}
+
+/* PARAGRAPHS */
+p {
+font-size: 18px;
+line-height: 1.8;
+max-width: 800px;
+margin: 20px auto;
+color: #e0f7ff;
+}
+
+/* CAROUSEL CENTER */
+.carousel-wrapper {
+display: flex;
+justify-content: center;
+margin-top: 40px;
+}
+
+/* UNO CARD STYLE */
+#myCarousel {
+width: 450px;
+border-radius: 20px;
+overflow: hidden;
+box-shadow: 0px 8px 25px rgba(0, 0, 0, 0.6);
+background: linear-gradient(rgba(0, 18, 97, 0.55), rgba(0, 0, 0, 0.6));
+padding: 8px;
+transition: all 0.4s ease;
+}
+
+/* Glow Hover */
+#myCarousel:hover {
+box-shadow: 0px 0px 20px cyan,
+            0px 0px 40px rgba(0, 255, 255, 0.5),
+            0px 8px 25px rgba(0, 0, 0, 0.6);
+transform: scale(1.05);
+}
+
+/* Images */
+.carousel-inner img {
+width: 100%;
+height: 380px;
+object-fit: cover;
+border-radius: 15px;
+}
+
+/* Arrows */
+.carousel-control .glyphicon {
+font-size: 18px;
+color: white;
+text-shadow: 2px 2px 6px rgba(0,0,0,0.8);
+}
+
+/* Indicators */
+.carousel-indicators li {
+background-color: cyan;
+border: none;
+}
+
+.carousel-indicators .active {
+background-color: white;
+}
+
+</style>
+</head>
+
+<body data-spy="scroll" data-target=".navbar" data-offset="50">
+
+<!-- NAVBAR -->
+<nav class="navbar navbar-inverse navbar-fixed-top">
+<div class="container-fluid">
+<div class="navbar-header">
+<a class="navbar-brand" href="#">Arabian_Aka🎮</a>
+</div>
+<ul class="nav navbar-nav">
+<li><a href="catstone.html">What is anime?📖</a></li>
+<li><a href="catstoneanime1.html">JJK⚡</a></li>
+<li><a href="catstoneanime2.html">Naruto</a></li>
+<li><a href="catstoneanime3.html">Demon Slayer</a></li>
+<li><a href="catstoneanime4.html">Spy X Family</a></li>
+<li><a href="catstoneanime5.html">Attack On Titan</a></li>
+<li><a href="catstoneanime6.html">Death note</a></li>
+<li><a href="catstoneanime7.html">Hunter x Hunter</a></li>
+<li><a href="catstoneanime8.html">My Hero Academia</a></li>
+<li><a href="catstoneanime9.html">Tokoyo Ghoul</a></li>
+</ul>
+</div>
+</nav>
+
+<!-- MAIN CONTENT -->
+<div class="main-content" id="section1">
+
+<h1>Welcome to the My Hero Academia page</h1>
+<h3>Arabian_Aka🎮</h3>
+<h2>What is My Hero Academia?</h2>
+
+<p>
+My Hero Academia is a superhero action anime created by Kohei Horikoshi. The story takes place in a world where most people have special powers called “Quirks.”
+
+</p>
+
+<p>
+The story follows Izuku Midoriya, a boy born without powers who dreams of becoming the greatest hero. After inheriting the powerful Quirk “One For All,” he joins U.A. High School to train as a professional hero. The anime is known for emotional moments, powerful fights, and inspiring themes about courage and hard work.
+
+</p>
+
+<p><strong>Wanna learn about some famous animes?</strong></p>
+<p>Go to our other pages to learn about them.</p>
+
+<!-- CAROUSEL -->
+<div class="carousel-wrapper">
+
+<div id="myCarousel" class="carousel slide" data-ride="carousel" data-interval="2500">
+
+<!-- Indicators -->
+<ol class="carousel-indicators">
+  <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+  <li data-target="#myCarousel" data-slide-to="1"></li>
+  <li data-target="#myCarousel" data-slide-to="2"></li>
+  <li data-target="#myCarousel" data-slide-to="3"></li>
+</ol>
+
+<!-- Slides -->
+<div class="carousel-inner">
+
+  <div class="item active">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRr0qhmoVZB1VKXQc75mnOYIY6ui-T34fYQCw&s" alt="JJK Image 1">
+  </div>
+
+  <div class="item">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTrpiGrq4LCi6Ie37o0_Ykzkkjtl4Bn5XaBBA&s" alt="JJK Image 2">
+  </div>
+
+  <div class="item">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRCBJ9_vY2PyDNRdDpqqBamk21LzyYPTASS4Q&s" alt="JJK Image 3">
+  </div>
+
+  <div class="item">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQu6u1nWgDDudxNVNUkq29vu2jWNh7heQcACg&s" alt="Rika JJK">
+  </div>
+
+</div>
+
+<!-- Controls -->
+<a class="left carousel-control" href="#myCarousel" data-slide="prev">
+  <span class="glyphicon glyphicon-chevron-left"></span>
+</a>
+
+<a class="right carousel-control" href="#myCarousel" data-slide="next">
+  <span class="glyphicon glyphicon-chevron-right"></span>
+</a>
+
+</div>
+</div>
+
+
+</div>
+
+<footer><p>
+&copy;Arabian_Aka, Made by Smayan. All rights Reserved
+&copy;</p></footer>
+</body>
+</html>
